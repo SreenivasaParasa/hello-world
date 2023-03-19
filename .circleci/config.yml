@@ -22,7 +22,7 @@ jobs:
       - run: 
           name: "echo environment variable"
           command: |
-              echo MY_ENV_VAR
+              echo $MY_ENV_VAR
 
 
 workflows:
